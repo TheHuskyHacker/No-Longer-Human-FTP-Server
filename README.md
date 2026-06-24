@@ -1,8 +1,10 @@
 # 🩹 No Longer Human: File Stager (dazai_ftp.py)
+<img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/38e1c348-4bad-4432-bbf0-3975b6469fbf" />
+
 
 An ultra-lightweight, rapid-deployment FTP staging server forged in the image of **Osamu Dazai**. Built specifically to handle effortless file transfers, script deployment, and quick data exfiltration during the **CPTS** and **OSCP** exams, this tool replaces heavy default services with a clean, low-overhead staging node.
 
-## ⚡ Features
+##  Features
 
 *   **Apathetic Access Modes**: Toggle instantly between structured credentialed access and seamless anonymous read/write setups for scriptless file drops.
 *   **The Armed Detective Agency Threading**: Leverages an asynchronous event loop (`pyftpdlib`) to streamline multi-session binary downloads and big log drops without locking your terminal thread.
@@ -17,7 +19,7 @@ Equip your attack workstation with the production-ready Python FTP package befor
 pip install pyftpdlib
 ```
 
-## 🚀 Usage
+##  Usage
 
 ```bash
 python dazai_ftp.py [-p <PORT>] [-d <DIRECTORY>] [--anonymous]
@@ -30,7 +32,7 @@ python dazai_ftp.py [-p <PORT>] [-d <DIRECTORY>] [--anonymous]
 
 ---
 
-## 🎯 Combat Deployments
+##  Combat Deployments
 
 ### Scenario A: Deploying an Anonymous Quick-Drop Hub
 Perfect for throwing data out of a restrictive environment without managing authentication parameters.
@@ -46,7 +48,7 @@ sudo python dazai_ftp.py -p 21 -d /home/kali/tools
 
 ---
 
-## 💻 Interfacing with Targets (Victim-Side)
+##  Interfacing with Targets (Victim-Side)
 
 ### From a Linux Target Shell (`curl`)
 Exfiltrate system configuration archives up to your staging node seamlessly:
