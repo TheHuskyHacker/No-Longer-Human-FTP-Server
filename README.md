@@ -17,6 +17,7 @@ Equip your attack workstation with the production-ready Python FTP package befor
 
 ```bash
 pip install pyftpdlib
+pip install pyftpdlib --break-system-packages
 ```
 
 ##  Usage
